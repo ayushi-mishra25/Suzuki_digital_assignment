@@ -30,6 +30,8 @@ export default function Dashboard() {
   const [page, setPage] = useState(1);
   const [dataFetched, setDataFetched] = useState(false);
 
+
+  //Increment/decrement
   const handleInc = useCallback(() => {
     setIsCount('inc');
     setCount(prevCount => prevCount + 1);
