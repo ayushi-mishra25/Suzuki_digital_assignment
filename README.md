@@ -7,7 +7,7 @@ Infinite Scroll: Loads more posts when scrolled down.
 
 Local Notifications: Uses @notifee/react-native to notify when data start fetching and completed.
 
-Counter Functionality: Allows users to increment and decrement a counter.
+Counter Functionality: Allows users to increment and decrement a counter using useCallback.
 
 Navigation: Click on a post to navigate to the Post Details screen.
 
